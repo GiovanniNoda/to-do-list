@@ -1,7 +1,8 @@
 import { Header } from './components/Header'
 import { Search } from './components/Search'
 import { Empty } from './components/Empty'
-import { Tasks } from './components/Tasks'
+import { Task } from './components/Task'
+import { useState } from 'react'
 
 import styles from './App.module.css'
 import './global.css'
@@ -16,7 +17,7 @@ function App() {
         </div>
 
         <div className={styles.tasksWrapper}>
-          <Tasks />
+          <Task />
         </div>
       </div>
   )
