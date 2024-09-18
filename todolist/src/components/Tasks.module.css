@@ -7,6 +7,8 @@
     align-items: flex-start;
     gap: 12px;
     padding: 1rem;
+    overflow-x: auto;
+    margin-bottom: 1rem;
 }
 
 .deleteButton {
@@ -36,12 +38,13 @@
 input[type="checkbox"] {
     appearance: none;
     height: 18px;
-    width: 28px;
+    width: 18px;
     border-radius: 50%;
     border: 2px solid var(--blue);
     display: flex;
     justify-content: center;
     align-items: center;
+    flex: 0 0 18px;
 }
 
 input[type="checkbox"]:checked {

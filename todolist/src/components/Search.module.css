@@ -73,3 +73,10 @@ main .sectionTasks {
     padding: 2px 8px;
     border-radius: 999px;
 }
+
+.tasksWrapper {
+    width: 100%;
+    max-width: 43rem;
+    margin: 0 auto;
+    margin-top: 50px;
+}
