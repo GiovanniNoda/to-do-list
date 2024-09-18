@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 4rem 1.5rem;
+    border-top: 1px solid var(--gray-400);
+}
+
+.container img {
+    margin-bottom: 1rem;
+}
+
+.firstP {
+    font-weight: 700;
+    color: var(--gray-300);
+    line-height: 140%;
+}
+
+.secondP {
+    font-weight: 400;
+    color: var(--gray-300);
+    line-height: 140%;
+}

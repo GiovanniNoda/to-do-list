@@ -1,0 +1,12 @@
+.searchWrapper {
+    width: 100%;
+    max-width: 43rem;
+    margin: -26px auto;
+}
+
+.tasksWrapper {
+    width: 100%;
+    max-width: 43rem;
+    margin: 0 auto;
+    margin-top: 50px;
+}

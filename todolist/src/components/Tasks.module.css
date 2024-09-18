@@ -1,0 +1,58 @@
+.tasksToDo, .tasksDone {
+    background: var(--gray-500);
+    border-radius: 8px;
+    font-size: 87.5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 12px;
+    padding: 1rem;
+}
+
+button {
+    all: unset;
+    cursor: pointer;
+    color: var(--gray-300);
+    transition: color 0.1s;
+}
+
+button:hover {
+    color: rgba(254, 21, 21, 0.447);
+}
+
+.tasksToDo {
+    border: 1px solid var(--gray-400);
+}
+
+.tasksDone {
+    border: 1px solid var(--gray-500);
+}
+
+.tasksDone p {
+    text-decoration: line-through;
+    color: var(--gray-300);
+}
+
+input[type="checkbox"] {
+    appearance: none;
+    height: 18px;
+    width: 28px;
+    border-radius: 50%;
+    border: 2px solid var(--blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type="checkbox"]:checked {
+    background: var(--purple);
+    border: none;
+    height: 18px;
+    width: 30.5px;
+}
+
+input[type="checkbox"]:checked::before {
+    content: '✔';
+    color: white;
+    font-size: 14px;
+}

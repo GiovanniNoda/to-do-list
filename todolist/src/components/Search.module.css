@@ -1,0 +1,75 @@
+main {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+main form {
+    width: 100%;
+    display: flex;
+    gap: 8px;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 4rem;
+}
+
+form .inputTasks {
+    width: 37.875rem;
+    padding: 1rem;
+    border-radius: 8px;
+    border: 1px solid var(--gray-700);
+    background: var(--gray-500);
+    color: var(--gray-100);
+}
+
+form .createButton {
+    all: unset;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 1rem;
+    
+    font-size: 87,5%;
+    font-weight: 700;
+    background: var(--blue-dark);
+    border-radius: 8px;
+    color: var(--gray-100);
+    
+    transition: opacity 0.1s;
+}
+
+form .createButton:hover {
+    opacity: 0.8;
+}
+
+main .sectionTasks {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sectionTasks .createdTasks {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+
+    font-size: 87.5%;
+    font-weight: 700;
+    color: var(--blue);
+}
+
+.sectionTasks .concludeTasks {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+
+    font-size: 87.5%;
+    font-weight: 700;
+    color: var(--purple);
+}
+
+.createNumber, .concludedNumber {
+    color: var(--gray-200);
+    background: var(--gray-400);
+    padding: 2px 8px;
+    border-radius: 999px;
+}
