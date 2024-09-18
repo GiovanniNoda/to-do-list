@@ -9,7 +9,7 @@ export function Tasks() {
 
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti excepturi dolorem architecto. Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
 
-            <button><Trash size={16} /></button>
+            <button className={styles.deleteButton}><Trash size={16} /></button>
         </div>
     )
 }

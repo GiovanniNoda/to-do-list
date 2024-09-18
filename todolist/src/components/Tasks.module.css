@@ -9,14 +9,14 @@
     padding: 1rem;
 }
 
-button {
+.deleteButton {
     all: unset;
     cursor: pointer;
     color: var(--gray-300);
     transition: color 0.1s;
 }
 
-button:hover {
+.deleteButton:hover {
     color: rgba(254, 21, 21, 0.447);
 }
 
