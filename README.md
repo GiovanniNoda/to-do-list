@@ -1,4 +1,3 @@
-# projeto-ToDoList
- Repositório do desafio To Do List do curso Rocketseat.
+# to-do-list
 
-Projeto feito com React JS, simula uma lista de tarefas da qual o usuário pode acrescentar, marcar como feitas e remover tarefas.
+Project created with React, simulates a list of tasks, in which, the user can add, mark as done and remove tasks.
